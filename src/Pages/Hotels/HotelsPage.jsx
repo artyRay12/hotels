@@ -11,7 +11,7 @@ const HotelsPage = () => {
     const [filter, setFilter] = useState("");
     const [state] = useState(data);
     const [currentPage, setCurrentPage] = useState(1);
-    const [currentTableSize, setCurrentTableSize] = useState(5);
+    const [currentTableSize, setCurrentTableSize] = useState(8);
 
     useEffect(() => {
         setCurrentPage(1);
@@ -43,9 +43,9 @@ const HotelsPage = () => {
     const dataForShow = !filter ? state : filteredContacts;
 
     return (
-        <div className="buyers-wrapper no-gutters">
-            <h2 className="text-light text-center m-4">Buyers</h2>
-            <div className="d-flex col p-0 justify-content-between buyers-control-panel">
+        <div className="hotels-wrapper no-gutters">
+            <h2 className="text-light text-center m-4">Hotels</h2>
+            <div className="d-flex justify-content-between hotels-control-panel">
                 <FilterPanel onFilterChange={onFilterChange} />
                 <SizeButtons onSizeChange={onSizeChange} />
             </div>

@@ -12,13 +12,23 @@ export default function Menu() {
         <nav className="navbar-expand navbar-dark bg-dark">
             <ul className="navbar-nav flex-column">
                 <li className="nav-item">
-                    <Link className="nav-link" to="/terminals/">
-                        {width < 1000 ? <TerminalIcon />  : "Terminals"}
+                    <Link className="nav-link" to="/hotels/">
+                    {width < 1000 ? <BuyersIcon />  : "Hotels"}  
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/hotels/">
-                    {width < 1000 ? <BuyersIcon />  : "Clients"}  
+                    <Link className="nav-link" to="/terminals/">
+                        {width < 1000 ? <TerminalIcon />  : "Another Link"}
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/terminals/">
+                        {width < 1000 ? <TerminalIcon />  : "Another Link"}
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="/terminals/">
+                        {width < 1000 ? <TerminalIcon />  : "Another Link"}
                     </Link>
                 </li>
             </ul>

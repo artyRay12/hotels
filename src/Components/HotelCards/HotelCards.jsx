@@ -3,13 +3,13 @@ import HotelCard from "./HotelCard/HotelCard";
 import "./hotelCards.scss";
 
 export default function HotelCards({ state }) {
-    const renderCards = state.slice(0, 3).map(elem => {
+    const renderCards = state.map(elem => {
        return <HotelCard {...elem} />
     })
     
     return (
         <>
-            <div class="card-deck">
+            <div class="card-wrapper">
                 {renderCards}
             </div>
         </>

@@ -1,9 +1,15 @@
-.buyers-wrapper {
+.hotels-wrapper {
     margin: 0 auto;
+    padding: 0 5%;
+}
+
+.hotels-control-panel {
+    margin-bottom: 20px;
+    padding-right: 30px;
 }
 
 @media screen and (max-width: 700px) {
-    .buyers-control-panel {
+    .hotels-control-panel {
         flex-direction: column;
         align-items: center;
     }

@@ -11,23 +11,23 @@ export default function SizeButtons({ onSizeChange }) {
                 <button
                     type="button"
                     className="btn btn-secondary"
-                    onClick={() => onSizeChange(5)}
+                    onClick={() => onSizeChange(8)}
                 >
-                    5
+                    8
                 </button>
                 <button
                     type="button"
                     className="btn btn-secondary"
-                    onClick={() => onSizeChange(10)}
+                    onClick={() => onSizeChange(16)}
                 >
-                    10
+                    16
                 </button>
                 <button
                     type="button"
                     className="btn btn-secondary"
-                    onClick={() => onSizeChange(15)}
+                    onClick={() => onSizeChange(24)}
                 >
-                    15
+                    24
                 </button>
             </div>
         </div>
