@@ -15,7 +15,7 @@ const HotelsFilter = ({ onFilterChange }) => {
             value={value}
             onChange={(e) => setValue(e.target.value)}
             className="form-control form-control search-input m-right"
-            placeholder="filter by username"
+            placeholder="filter by hotel name"
         />
     );
 };

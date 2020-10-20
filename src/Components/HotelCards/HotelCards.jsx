@@ -9,7 +9,7 @@ export default function HotelCards({ state }) {
     
     return (
         <>
-            <div class="card-wrapper">
+            <div class="cards-wrapper">
                 {renderCards}
             </div>
         </>

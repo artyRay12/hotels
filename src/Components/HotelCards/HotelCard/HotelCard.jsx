@@ -6,7 +6,7 @@ import { TelephoneFill, GeoAltFill, EnvelopeFill } from 'react-bootstrap-icons';
 const HotelCard = ({ id, name, country, city, street, phones, email }) => {
 
     return (
-        <div class="card bg-secondary text-white card-item">
+        <div class="card bg-secondary text-white card-item card-wrapper">
             <div class="card-body">
                 <NavLink to={`/hotels/${id}/`}>
                 <h3 class="card-title card-item-title">{name}</h3>

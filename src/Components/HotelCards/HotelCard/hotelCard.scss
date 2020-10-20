@@ -7,3 +7,21 @@
         padding: 2px !important;
     }
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+.card-wrapper {
+    transition: 0.5s;
+}
+
+.card-wrapper:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card-wrapper:hover .card-title{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff
+}
